@@ -50,7 +50,7 @@ describe("Pruebas de los controladores de los usuarios",()=>{
     });
 
     // Definir el bloque de pruebas para la peticion GET
-    describe("Pruebas Get /users", async()=>{
+    describe("Pruebas Get /users", (async)=>{
 
         // PRIMER caso de prueba: Deberia indicar que no hay usuarios almacenados
         it("Deberia indicar que no hay usuarios almacenados", async()=>{
